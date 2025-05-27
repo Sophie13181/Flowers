@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore beautiful but deadly plants and their hidden dangers." />
+  <title>Beautiful but Deadly Plants</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      opacity: 0;
+      animation: fadeIn 1s ease-in forwards;
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      margin: 0;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 10px;
+      list-style: none;
+      padding: 0;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      padding: 10px 15px;
+      background-color: #444;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #666;
+    }
+
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+
+    section.intro {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    img.plant {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Beautiful but Deadly Plants</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="lycoris.html">Lycoris radiata</a></li>
+        <li><a href="oleander.html">Nerium oleander</a></li>
+        <li><a href="henbane.html">Hyoscyamus niger</a></li>
+        <li><a href="datura.html">Datura stramonium</a></li>
+        <li><a href="video.html">Relaxation Video</a></li>
+        <li><a href="facts.html">Fun Facts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Welcome to “Beautiful but Deadly Plants”</h2>
+      <p>Nature hides danger behind beauty. On this site, you'll discover four visually stunning plants that are, in fact, dangerously toxic. Explore each plant, enjoy relaxing visuals, and uncover fascinating facts behind their deadly charm.</p>
+      <img src="Lycoris radiata.jpg" class="plant" alt="Red Spider Lily blooming in the dark" />
+      <p><em>Lycoris radiata – beauty with a warning</em></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Deadly Flora Project. All rights reserved.</p>
+  </footer>
+</body>
+</html>
